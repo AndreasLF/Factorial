@@ -1,0 +1,64 @@
+
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4CAF50;
+}
+
+#header{
+    background-color: #388E3C;
+    height: 48px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 26px;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-weight: bold;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+#method1 {
+    width: 80%;
+    padding: 40px;
+    /*height: 100%*/
+    
+}
+
+.fields {
+    background-color: #FFC107;
+    border-radius: 10px;
+    padding: 5px;
+    color: #ffffff;
+    width: 248px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 20px;
+    border: none;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05), 0 3px 3px rgba(0, 0, 0, 0.05);
+}
+
+#result1, #calcTime1{
+    margin-top: 20px;
+}
+
+#nextPage {
+    margin-top: 40px;
+    width: 30px;
+    border-radius: 50px;   
+    margin-left:107px;
+    
+}
+
+#nextPage:hover {
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.07), 0 6px 6px rgba(0, 0, 0, 0.07);
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #FFA000;
+}
