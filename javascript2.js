@@ -1,4 +1,4 @@
-var result1, calcTime1; //declaring variables for result1 and calcTime1 divs
+var result1; //declaring variables for result1 and calcTime1 divs
 
 
 /*
@@ -20,13 +20,7 @@ function trackChange1(value){
     
     var input1 = parseInt(value) || 0;   //This parses the value to an integer. If parseInt(), does not retrieve anything input1 becomes 0.
     
-    var t0 = performance.now(); //stores a timestamp
-    
     result1.innerHTML = input1 + "! = " + calcFactorial(input1); //changes the text inside the result1 div to the calculated result
-    
-    var t1 = performance.now(); //stores af timestamp
-    
-    calcTime1.innerHTML= "calculation time: " + (t1-t0) + " ms"; //calculates the difference between the 'before' timestamp and the 'after' timestamp and displays it in the calcTime1 div
 }
 
 
